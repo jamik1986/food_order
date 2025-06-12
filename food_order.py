@@ -41,9 +41,10 @@ def create_summary(name, amount):
         return "Meal was not found"
 
 
-print("Welcome to the Food Order System! We have Italian and Indian Food in the menu. ")
+
 
 if __name__ == "__main__":
+    print("Welcome to the Food Order System! We have Italian and Indian Food in the menu. ")
     food_type = input("What type of food you want today? ").strip().lower()
     display_available_meals(food_type)
     name_input = input("Enter the name of the meal you want to order: ").strip().lower()
